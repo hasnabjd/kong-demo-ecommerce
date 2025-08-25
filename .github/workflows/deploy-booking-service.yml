@@ -28,7 +28,7 @@ jobs:
             echo "Artifact file not found at $ARTIFACT_PATH. Stopping workflow. Run the build workflow before deploy."
             exit 1  
           else
-            echo "Artifact file exists!"
+            echo "Artifact file exists"
           fi
 
       - name: Setup deck
